@@ -3,7 +3,53 @@
 	margin: 0;
 	box-sizing: border-box;
 }
-
 body {
-	background: red;
+	display: flex;
+	flex-direction: column;
+}
+
+main {
+	display: flex;
+	flex-direction: row;
+	
+	
+}
+.main {
+	display: flex;
+	flex-direction: column;
+   flex: 1 0 auto;
+	.head {
+		
+		background-color: black;
+		flex: 0 0 280px;
+	}
+	.playlist {
+		flex: 1 0 auto;
+		background-color: yellow;
+	}
+	
+}
+.sidebar {
+	background-color: yellow;
+	display: flex; 
+	flex: 0 0 40px;/*flex superpowers activated! */
+    flex-direction: column; 
+    justify-content: space-around;
+    align-items: center;
+
+    i {
+    	font-size: 1em;
+    	padding: 20px 0;
+    }
+}
+.head {
+background-color: brown;
+}
+.playlist {
+	background-color: yellow;
+}
+footer { 
+	flex: 0 0 90px;
+	padding: 10px;
+	background-color: blue;
 }
