@@ -12,16 +12,29 @@ main {
 	display: flex;
 	flex-direction: row;
 	
-	
 }
 .main {
 	display: flex;
 	flex-direction: column;
    flex: 1 0 auto;
 	.head {
-		
-		background-color: black;
+		display: flex;
+		background-color: #000;
 		flex: 0 0 280px;
+		color: #fff;
+		padding: 20px;
+		
+	.cover {
+			width: 200px;
+			height: 200px;
+			padding: 20px;
+		}
+		.description {
+			padding: 20px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+		}
 	}
 	.playlist {
 		flex: 1 0 auto;
@@ -48,8 +61,73 @@ background-color: brown;
 .playlist {
 	background-color: yellow;
 }
+.btn {
+    text-decoration: none;
+    background: none;
+    color: #fff;
+    border: none;
+    font-family: sans-serif;
+    font-size: 0.8em;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 400;
+    text-align: center;
+}
+.play, 
+.add, 
+.more {
+	padding-right: 50px;
+}
+
+.play::before {
+	font-family: "FontAwesome";
+	content: '\f04b';
+}
+.add::before {
+	content: '\f067';
+}
+.more::before {
+	content: '\f141';
+}
+table {
+	width: 100%;
+}
+tr:nth-of-type(odd) {
+	background: grey;
+}
+td {
+	padding: 20px;
+}
+td:first-of-type {
+	text-align: center;
+}
+
 footer { 
 	flex: 0 0 90px;
-	padding: 10px;
+	padding: 20px;
 	background-color: blue;
+	display: flex;
+	justify-content: space-between;
+	.footer__cover {
+		width: 100px;
+		height: 100px;
+		object-fit: contain;
+	}
+	.footer__description {
+		display: flex;
+		justify-content: space-between;
+		flex: 0 0 20%;
+		.info {
+			
+			display: flex;
+			align-items: center;
+		
+		}
+	}
+	.commands {
+		display: flex;
+		justify-content: space-between;
+		flex: 0 0 50%;
+		align-items: center;
+	}
 }
