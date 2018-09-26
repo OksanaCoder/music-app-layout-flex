@@ -19,7 +19,7 @@ main {
    flex: 1 0 auto;
 	.head {
 		display: flex;
-		background-color: #000;
+		background-color: #716e77;
 		flex: 0 0 280px;
 		color: #fff;
 		padding: 20px;
@@ -43,7 +43,7 @@ main {
 	
 }
 .sidebar {
-	background-color: yellow;
+	background-color: #D0DFE6;
 	display: flex; 
 	flex: 0 0 40px;/*flex superpowers activated! */
     flex-direction: column; 
@@ -55,9 +55,7 @@ main {
     	padding: 20px 0;
     }
 }
-.head {
-background-color: brown;
-}
+
 .playlist {
 	background-color: yellow;
 }
@@ -93,7 +91,10 @@ table {
 	width: 100%;
 }
 tr:nth-of-type(odd) {
-	background: grey;
+	background: #D0DFE6;
+}
+tr:nth-of-type(even) {
+	background: #fff;
 }
 td {
 	padding: 20px;
@@ -105,7 +106,7 @@ td:first-of-type {
 footer { 
 	flex: 0 0 90px;
 	padding: 20px;
-	background-color: blue;
+	background-color: #78c0a8;
 	display: flex;
 	justify-content: space-between;
 	.footer__cover {
