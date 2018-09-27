@@ -16,10 +16,10 @@ main {
 .main {
 	display: flex;
 	flex-direction: column;
-   flex: 1 0 auto;
+    flex: 1 0 auto;
 	.head {
 		display: flex;
-		background-color: #716e77;
+		background-color: #4bc2c5;
 		flex: 0 0 280px;
 		color: #fff;
 		padding: 20px;
@@ -94,7 +94,7 @@ tr:nth-of-type(odd) {
 	background: #D0DFE6;
 }
 tr:nth-of-type(even) {
-	background: #fff;
+	background: #fef4a9;
 }
 td {
 	padding: 20px;
@@ -106,7 +106,7 @@ td:first-of-type {
 footer { 
 	flex: 0 0 90px;
 	padding: 11px;
-	background-color: #78c0a8;
+	background-color: #3b9a9c;
 	display: flex;
 	justify-content: space-between;
    
