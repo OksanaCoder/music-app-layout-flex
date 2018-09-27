@@ -105,19 +105,21 @@ td:first-of-type {
 
 footer { 
 	flex: 0 0 90px;
-	padding: 20px;
+	padding: 11px;
 	background-color: #78c0a8;
 	display: flex;
 	justify-content: space-between;
+   
 	.footer__cover {
 		width: 100px;
-		height: 100px;
+		// height: 50%;
 		object-fit: contain;
 	}
+
 	.footer__description {
 		display: flex;
 		justify-content: space-between;
-		flex: 0 0 20%;
+		flex: 0 0 15%;
 		.info {
 			
 			display: flex;
@@ -128,7 +130,16 @@ footer {
 	.commands {
 		display: flex;
 		justify-content: space-between;
-		flex: 0 0 50%;
+		flex: 0 0 40%;
 		align-items: center;
+		margin-right: 50px;
 	}
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  
+}
+@media (min-width: 481px) and (max-width: 767px) {
+   
 }
