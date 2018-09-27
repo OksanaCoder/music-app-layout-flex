@@ -6,6 +6,7 @@
 body {
 	display: flex;
 	flex-direction: column;
+	font-family: Lato, sans-serif
 }
 
 main {
@@ -109,7 +110,7 @@ footer {
 	background-color: #3b9a9c;
 	display: flex;
 	justify-content: space-between;
-   
+    color: #fff;
 	.footer__cover {
 		width: 100px;
 		// height: 50%;
@@ -121,7 +122,7 @@ footer {
 		justify-content: space-between;
 		flex: 0 0 15%;
 		.info {
-			
+			flex: 1 0 auto;
 			display: flex;
 			align-items: center;
 		
@@ -129,17 +130,9 @@ footer {
 	}
 	.commands {
 		display: flex;
-		justify-content: space-between;
+		justify-content: space-around;
 		flex: 0 0 40%;
 		align-items: center;
 		margin-right: 50px;
 	}
-}
-
-@media (min-width: 320px) and (max-width: 480px) {
-
-  
-}
-@media (min-width: 481px) and (max-width: 767px) {
-   
 }
